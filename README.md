@@ -27,18 +27,6 @@
 
 ---
 
-## Open source: sageox/ox
-
-| PR | What it fixed |
-| --- | --- |
-| [#792](https://github.com/sageox/ox/pull/792) | A race condition in 3 SQLite migration functions that crashed the database on concurrent, cold-start initialization. |
-| [#811](https://github.com/sageox/ox/pull/811) | A data-corruption bug in 2 auto-commit paths that had baked broken conflict markers into 8 sessions of permanent history. |
-| [#859](https://github.com/sageox/ox/pull/859) | A fork bomb in the test suite that hung for 10 minutes. Runtime dropped by 66% after the fix. |
-
-Full write-ups for each fix are in my [OSC repo](https://github.com/aditeya08varma/OSC).
-
----
-
 ## Tech stack
 
 <p>
